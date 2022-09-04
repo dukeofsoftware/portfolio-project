@@ -1,0 +1,21 @@
+*{
+    font-family: "Roboto";
+}
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+html, body ,#app{
+    margin: 0;
+    height: 100%;
+}
+.size-text{
+    font-size: 10rem;
+}
+.afill{
+    padding: auto;
+}
+#app{
+    background: rgb(104,152,27);
+    background: linear-gradient(90deg, rgba(104,152,27,1) 0%, rgba(129,24,90,1) 22%, rgba(22,123,128,1) 27%, rgba(17,79,101,1) 39%, rgba(19,33,108,1) 52%, rgba(98,17,84,1) 71%, rgba(116,26,47,1) 85%, rgba(15,98,115,0.9907407407407407) 100%);
+}
