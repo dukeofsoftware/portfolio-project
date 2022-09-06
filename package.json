@@ -2,7 +2,7 @@
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage":"https://DukeEmree.github.io/portfolio-project",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
