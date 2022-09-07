@@ -15,7 +15,7 @@
             <div class="card">
               <img src="../../assets/indir.png"  class="card-img-top img-thumbnail" alt="">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">TODO APP</h5>
                 <p class="card-text">Geliştirdiğim todo app</p>
               </div>
               <div class="card-footer">
