@@ -4,8 +4,8 @@
 
 
             <div class="form-group m-3">
-              <label for="exampleInputEmail1" class="text-sz">Email</label>
-              <input type="email" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mailinizi girin" required name="email">
+              <label for="exampleInputEmail1" autocomplete="off" class="text-sz text-black text-base">Email</label>
+              <input type="email" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off" placeholder="Mailinizi girin" required name="email">
               <small id="emailHelp" class="form-text text-muted"></small>
             </div>
             <div class="form-group m-3">
@@ -21,7 +21,8 @@
 
               </div>
               <div class="form-group m-3">
-                <input type="text" name="name" placeholder="Mesajınız" class="form-control p-2">
+                <label for="exampleInputEmail1" autocomplete="off" class="text-sz text-black text-base">Mesaj</label>
+                <input type="text" name="name" autocomplete="off" placeholder="Mesajınız" class="form-control p-2">
               </div>
           
             

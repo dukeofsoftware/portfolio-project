@@ -1,13 +1,20 @@
 <template lang="">
-    <div class="col p-0 m-0 align-items-between justify-content-center align-middle afill d-flex flex-column "  style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
-    unselectable="on"
-    onselectstart="return false;" 
-    onmousedown="return false;">
-     <h1 class="text-center size-text">Ben</h1>
-     <h1 class="text-center size-text">Emre</h1>
-      
-      
+ <div class="flex justify-center items-center pt-12 m-12">
+    <label for="my-modal" class="btn btn-lg	 btn-ghost	active:bg-none modal-button w-96 h-48 text-2xl">Hakkımda</label>
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Merhaba!!</h3>
+    <p class="py-4">Merhaba ben Emre 9.sınıfa gidiyorum yazılımla ilgileniyorum ve bu siteyi vue tailwind ve daisy ui kullanarak yaptım.</p>
+    <p class="py-4">Bana ulaşmak için <a href="/contact" class="link">iletişim</a> bölümünden bana mail atabilirsiniz.</p>
+    <div class="modal-action">
+      <label for="my-modal" class="btn">Kapat</label>
     </div>
+  </div>
+</div>
+ </div>
 </template>
 <script>
 export default {

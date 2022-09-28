@@ -1,5 +1,5 @@
 <template lang="">
-  <nav class="navbar navbar-dark bg-success navbar-expand-sm bg-navbar">
+<!--   <nav class="navbar navbar-dark bg-success navbar-expand-sm bg-navbar">
     <div class="container">
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
@@ -33,7 +33,41 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+  <div class="navbar bg-base-100 border-black">
+    <div class="flex-1">
+        <router-link
+          @click="hangisinde"
+          to="/"
+          class="nav-link px-3"
+          :class="brandcolor()"
+          >Ana Sayfa</router-link>
+        
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal p-0">
+        <li class="navbar-item">
+          <router-link
+            :class="brandcolor2()"
+            @click="hangisinde"
+            to="/projects"
+            class="nav-link px-3"
+            >Projeler</router-link
+          >
+        </li>
+      
+        <li class="navbar-item">
+          <router-link
+            :class="brandcolor3()"
+            @click="hangisinde"
+            to="/contact"
+            class="nav-link px-3"
+            >İletişim</router-link
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
 </template>
 <script>
 export default {

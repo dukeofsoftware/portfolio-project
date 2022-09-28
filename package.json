@@ -2,17 +2,18 @@
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://DukeEmree.github.io/portfolio-project",
+  "homepage": "https://DukeEmree.github.io/portfolio-project",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy":"sh deploy.sh"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
     "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
+    "daisyui": "^2.31.0",
     "font-awesome": "^4.7.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
@@ -26,7 +27,10 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.12",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
